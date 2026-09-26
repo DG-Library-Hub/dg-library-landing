@@ -15,7 +15,7 @@ Tech Stack
 - Vercel / GitHub Pages for Deployment
 
 Team Members & Roles
-- Brian Kabwe (2511076) - Scrum Master / Dev - DL-4 Foundation
+- Brian Kabwe (2511076) - Scrum Master/Project Manager / Dev - DL-4 Foundation
 
 
 Scrum Workflow - How to Contribute
