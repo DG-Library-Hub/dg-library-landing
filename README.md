@@ -16,6 +16,7 @@ Tech Stack
 
 Team Members & Roles
 - Brian Kabwe (2511076) - Scrum Master/Project Manager / Dev - DL-4 Foundation
+- simukoko chimwemwemwe(2510944) - QA & technical writer / dev - DL-12 Documentation
 
 
 Scrum Workflow - How to Contribute
