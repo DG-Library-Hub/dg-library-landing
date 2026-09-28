@@ -16,6 +16,7 @@ Tech Stack
 
 Team Members & Roles
 - Brian Kabwe (2511076) - Scrum Master/Project Manager / Dev - DL-4 Foundation
+-Charles Mupila (2510250) - DG-Library-Hub/dg-library-landing/Front end engineer
 
 
 Scrum Workflow - How to Contribute
