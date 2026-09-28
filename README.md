@@ -16,6 +16,8 @@ Tech Stack
 
 Team Members & Roles
 - Brian Kabwe (2511076) - Scrum Master/Project Manager / Dev - DL-4 Foundation
+- Natasha Chisanga (2511015) -product owner/solution Architecture - DL-5 Foundation
+
 
 
 Scrum Workflow - How to Contribute
