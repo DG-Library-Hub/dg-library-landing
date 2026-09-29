@@ -32,6 +32,7 @@ Technologies used
 
 Team Members & Roles
 - Brian Kabwe (2511076) - Scrum Master/Project Manager / Dev - DL-4 Foundation
+-Charles Mupila (2510250) - DG-Library-Hub/dg-library-landing/Front end engineer
 - simukoko chimwemwemwe(2510944) - QA & technical writer / dev - DL-14 Documentation
 
 

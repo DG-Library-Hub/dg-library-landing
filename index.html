@@ -1,29 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DG Library | Digital Lab - BSE2201 Group Assignment</title>
-<style>
-:root{--blue:#0b2447;--cyan:#19d3da;--light:#f5f7fb}
-*{margin:0;padding:0;box-sizing:border-box;font-family: 'Segoe UI',Arial}
-body{background:var(--light);color:#222}
-header{background:var(--blue);color:#fff;padding:16px 7%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
-nav a{color:#cbd5e1;text-decoration:none;margin-left:18px}
-.hero{background:linear-gradient(135deg,var(--blue),#19376d);color:#fff;padding:80px 7%;text-align:center}
-.hero h1{font-size:2.8rem} .hero span{color:var(--cyan)}
-.btn{background:var(--cyan);color:var(--blue);padding:12px 28px;border-radius:30px;text-decoration:none;font-weight:700;display:inline-block;margin:8px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;padding:20px 7%}
-.card{background:#fff;padding:24px;border-radius:14px;box-shadow:0 6px 20px rgba(0,0,0,0.07);border-left:5px solid var(--cyan)}
-.card a.link{background:#e0f2fe;color:var(--blue);padding:5px 12px;border-radius:20px;text-decoration:none;font-weight:600;display:inline-block;margin-top:8px;font-size:0.85rem}
-section{padding:40px 7%} footer{background:var(--blue);color:#a3b8d9;padding:40px 7%;text-align:center}
-.tag{background:var(--blue);color:var(--cyan);padding:4px 10px;border-radius:12px;font-size:0.78rem;font-weight:700}
-.prob{background:#fff3cd;border-left:5px solid #ffc107;padding:20px;border-radius:10px;margin:20px 7%}
-.contact{background:var(--blue);color:#fff;padding:40px 7%;text-align:center}
-.contact a{color:var(--cyan)}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DG Library | Digital Lab - BSE2201 Group Assignment</title>
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <p class="brand"><strong>DG Library Hub</strong> | Digital Lab</p>
+        <nav>
+            <a href="#problem">Problem</a>
+            <a href="#solution">System</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>DG Library and Venue Hub - <span>Solving School Venue & Resource Crisis</span></h1>
+            <p class="hero-sub">BSE2201 Software Engineering Foundations | Group Assignment</p>
+            <p><strong>Team Leader:</strong> Brian Kabwe 2511076 | <strong>GitHub Org:</strong> DG-Library-Hub | <strong>Jira:</strong> dglibrary.atlassian.net</p>
+            <br>
+            <a href="#team" class="btn">Meet Our 10-Member Team</a>
+            <a href="https://github.com/DG-Library-Hub/dg-library-landing" target="_blank" rel="noopener noreferrer" class="btn btn-outline">GitHub Repo</a>
+        </section>
+
+        <section id="problem">
+            <article class="prob">
+                <h2> Identified Problem: Poor Venue Management & Lack of Course Guidelines</h2>
+                <p><strong>Where:</strong> Classrooms/venues during start of new semester | <strong>Who is affected:</strong> Students and Lecturers at ZUT</p>
+                <p><strong>What currently happens:</strong> Classes get canceled last minute because no venue was pre-booked, or venue is too small. Students start courses without clear outline, learning outcomes, roadmap. No central place for study materials, past papers, schedules.</p>
+                <p><strong>Why it needs addressing:</strong> Canceled classes waste time, disrupt learning, low attendance, poor grades. Students can't prepare ahead. Study efficiency drops.</p>
+            </article>
+        </section>
+
+        <section id="solution">
+            <h2> Proposed System: DG Library and Venue Hub</h2>
+            <p class="section-intro"><strong>System Name:</strong> DG Library and Venue Hub | <strong>Purpose:</strong> Centralized smart venue & learning resource hub | <strong>Intended Users:</strong> Students & Lecturers | <strong>Benefits:</strong> Stops cancellations, clear study roadmap, centralized materials, improved communication</p>
+            
+            <section class="grid">
+                <article class="card">
+                    <h3>1. Smart Timetable & Venue Manager</h3>
+                    <p>Admin dashboard shows available venues, auto-allocates rooms by class size, notifies students/lecturers of changes instantly.</p>
+                </article>
+                <article class="card">
+                    <h3>2. Course Roadmap & Resource Hub</h3>
+                    <p>Each course has outline, learning outcomes, progress bar, downloadable notes, past papers, and notepad.</p>
+                </article>
+                <article class="card">
+                    <h3>3. Messaging & File Sharing</h3>
+                    <p>Direct communication between students and lecturers, secure uploads/downloads for materials, role-based access.</p>
+                </article>
+            </section>
+        </section>
+
+        <section id="team" class="team-section">
+            <h2> Meet Our Team</h2>
+            <p class="section-intro">Our project is brought to life by a dedicated team of ten software engineering students, each driving a key component of the DG Library Hub.</p>
+
+            <section class="grid">
+                <article class="card">
+                    <p><strong>1. Brian Kabwe</strong><br>ID: 2511076</p>
+                    <span class="tag">Scrum Master / Project Manager</span>
+                    <p>GitHub Org, Jira, Sprint<br>
+                    <a class="link" href="https://github.com/BrianKabwe2511076" target="_blank" rel="noopener noreferrer">GitHub: BrianKabwe</a><br>
+                    <a class="link" href="https://dglibrary.atlassian.net/browse/DL-1" target="_blank" rel="noopener noreferrer">Jira: DL-1</a></p>
+                </article>
+
+                <article class="card">
+                    <p><strong>2. Charles Mupila</strong><br>ID: 2510250</p>
+                    <span class="tag">Frontend - Navigation & Landing</span>
+                    <p><a class="link" href="https://github.com/charlesmupila7pts2005-arch/DG-LIBRARY" rel="noopener noreferrer">GitHub: CharlesMupila</a><br>
+                    <a class="link" href="https://dglibrary.atlassian.net/browse/DL-2" target="_blank" rel="noopener noreferrer">Jira: DL-2</a></p>
+                </article>
+
+                <article class="card">
+                    <p><strong>3. Kondwani Lungu</strong><br>ID: 2510977</p>
+                    <span class="tag">UX/UI Engineer</span>
+                    <p><a class="link" href="https://github.com/KondwaniLungu" target="_blank" rel="noopener noreferrer">GitHub: KondwaniLungu</a><br>
+                    <a class="link" href="https://dglibrary.atlassian.net/browse/DL-3" target="_blank" rel="noopener noreferrer">Jira: DL-3</a></p>
+                </article>
+
+                <article class="card">
+                    <p><strong>4. Simukoko Chimwemwe</strong><br>ID: 2510944</p>
+                    <span class="tag">Engineer & Tech Writer</span>
+                    <p><a class="link" href="https://github.com/C2-c2510944" target="_blank" rel="noopener noreferrer">GitHub: Simukoko</a><br>
+                    <a class="link" href="https://dglibrary.atlassian.net/browse/DL-11" target="_blank" rel="noopener noreferrer">Jira: DL-11</a></p>
+                </article>
+
+                <article class="card">
+                    <p><strong>5. Natasha Chisanga</strong><br>ID: 2511015</p>
+                    <span class="tag">Product Owner</span>
+                    <p><a class="link" href="https://github.com/NatashaChisanga" target="_blank" rel="noopener noreferrer">GitHub: Natasha</a><br>
+                    <a class="link" href="https://dglibrary.atlassian.net/browse/DL-10" target="_blank" rel="noopener noreferrer">Jira: DL-10</a></p>
+                </article>
+
+                <article class="card">
+                    <p><strong>6. Lubuto Chambatu</strong><br>ID: 2510255</p>
+                    <span class="tag">Frontend - Problem Domain</span>
+                    <p><a class="link" href="https://github.com/LubutoChambatu" target="_blank" rel="noopener noreferrer">GitHub: Lubuto</a><br>
+                    <a class="link" href="https://dglibrary.atlassian.net/browse/DL-4" target="_blank" rel="noopener noreferrer">Jira: DL-4</a></p>
+                </article>
+
+                <article class="card">
+                    <p><strong>7. Temwani Kainga</strong><br>ID: 2510235</p>
+                    <span class="tag">Frontend - Future Spec</span>
+                    <p><a class="link" href="https://github.com/TemwaniKainga" target="_blank" rel="noopener noreferrer">GitHub: Temwani</a><br>
+                    <a class="link" href="https://dglibrary.atlassian.net/browse/DL-7" target="_blank" rel="noopener noreferrer">Jira: DL-7</a></p>
+                </article>
+
+                <article class="card">
+                    <p><strong>8. Samuel Phiri</strong><br>ID: 2410104</p>
+                    <span class="tag">Team & Collaboration</span>
+                    <p><a class="link" href="https://github.com/SamuelPhiri" target="_blank" rel="noopener noreferrer">GitHub: Samuel</a><br>
+                    <a class="link" href="https://dglibrary.atlassian.net/browse/DL-8" target="_blank" rel="noopener noreferrer">Jira: DL-8, DL-9</a></p>
+                </article>
+
+                <article class="card">
+                    <p><strong>9. Dalitso Banda</strong><br>ID: 2511021</p>
+                    <span class="tag">DevOps & Deployment</span>
+                    <p><a class="link" href="https://github.com/DalitsoBanda" target="_blank" rel="noopener noreferrer">GitHub: Dalitso</a><br>
+                    <a class="link" href="https://dglibrary.atlassian.net/browse/DL-12" target="_blank" rel="noopener noreferrer">Jira: DL-12</a></p>
+                </article>
+
+                <article class="card">
+                    <p><strong>10. Member 10 Name</strong><br>ID: 2510000</p>
+                    <span class="tag">Frontend - Contact & Footer</span>
+                    <p><a class="link" href="https://github.com/DG-Library-Hub" target="_blank" rel="noopener noreferrer">GitHub: Profile</a><br>
+                    <a class="link" href="https://dglibrary.atlassian.net/browse/DL-5" target="_blank" rel="noopener noreferrer">Jira: DL-5, DL-6</a></p>
+                </article>
+            </section>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contact Information</h2>
+            <p>For enquiries about the team or proposed DG Library system:</p>
+            <p>Email: <a href="mailto:dglibrary.hub@zut.ac.zm">dglibrary.hub@zut.ac.zm</a> | GitHub: <a href="https://github.com/DG-Library-Hub" target="_blank" rel="noopener noreferrer">DG-Library-Hub</a> | Jira: <a href="https://dglibrary.atlassian.net" target="_blank" rel="noopener noreferrer">dglibrary.atlassian.net</a></p>
+            <p>Lecturer Access: Add lecturer email to GitHub Org (Members) and Jira Project (People)</p>
+            <br>
+            <a href="#team" class="btn">Meet Our Team</a>
+        </section>
+    </main>
+
+    <footer>
+        <p><strong>Digital Lab</strong> | BSE2201 Software Engineering Foundations | Group Assignment - Landing Page Only</p>
+        <p>Scrum Master: Brian Kabwe 2511076 | GitHub Org: DG-Library-Hub | Repo: dg-library-landing | Live:</p>
+        <p>Technologies: HTML5, CSS3, Git, GitHub, Jira, Vercel | Iterative Development | Deployed for Presentation</p>
+        <br>
+        &copy;2026 DG-Lab.All rights reserved...
+        </br>
+    </footer>
+    <!-- External JavaScript Link -->
+    <script src="script.js"></script>
 <header>
 <div><b>DG Library Hub</b> | Digital Lab</div>
 <nav><a href="#problem">Problem</a><a href="#solution">System</a><a href="#team">Team</a><a href="#contact">Contact</a></nav>
