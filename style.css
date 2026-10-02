@@ -298,6 +298,57 @@ section p {
 
 
 /* =========================
+   PROBLEM DOMAIN
+   ========================= */
+
+.problem-domain {
+    padding: var(--space-2xl) 7%;
+    background: var(--background);
+}
+
+.problem-domain h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: var(--weight-bold);
+    line-height: 40px;
+    margin-bottom: 48px;
+    color: var(--primary);
+}
+
+.problem-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.problem-domain .card {
+    background: var(--surface);
+    border: 1px solid #e5e7eb;
+    border-left: 5px solid var(--accent);
+    border-radius: 16px;
+    padding: 32px 24px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.problem-domain .card h3 {
+    font-size: 18px;
+    font-weight: var(--weight-medium);
+    line-height: 28px;
+    margin: 0 0 12px 0;
+    color: var(--text-primary);
+}
+
+.problem-domain .card p {
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+
+/* =========================
    CONTACT SECTION
    ========================= */
 
@@ -316,6 +367,16 @@ section p {
     color: var(--text-light);
 }
 
+.contact a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: var(--weight-medium);
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
 
 /* =========================
    FOOTER
@@ -330,11 +391,74 @@ footer {
 
 
 /* =========================
+   DG LIBRARY LOGO
+   ========================= */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    text-decoration: none;
+}
+
+.logo-mark {
+    width: 44px;
+    height: 44px;
+    background: var(--accent);
+    color: var(--primary);
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: var(--weight-bold);
+    letter-spacing: -1px;
+    box-shadow: var(--shadow-sm);
+}
+
+.logo-name {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.logo-name strong {
+    color: var(--white);
+    font-size: 1.05rem;
+    font-weight: var(--weight-bold);
+}
+
+.logo-name small {
+    color: var(--text-light);
+    font-size: 0.7rem;
+    margin-top: 3px;
+}
+
+
+/* =========================
+   LEGACY LOGO SUPPORT
+   ========================= */
+
+.logo-icon {
+    font-size: 1.6rem;
+}
+
+.logo-text {
+    color: var(--white);
+}
+
+
+/* =========================
    MOBILE RESPONSIVE DESIGN
    ========================= */
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+    .problem-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
+@media (max-width: 768px) {
     header {
         padding: 14px 5%;
         flex-direction: column;
@@ -385,70 +509,14 @@ footer {
         margin: var(--space-sm) 4px;
     }
 }
- .contact a {
-    color: var(--accent);
-    text-decoration: none;
-    font-weight: var(--weight-medium);
-}
 
-.contact a:hover {
-    text-decoration: underline;
-}
-.logo {
-    display: flex;
-    align-items: center;
-    gap: var(--space-sm);
-    font-size: var(--text-lg);
-    font-weight: var(--weight-bold);
-}
+@media (max-width: 640px) {
+    .problem-domain {
+        padding: 64px 7%;
+    }
 
-.logo-icon {
-    font-size: 1.6rem;
-}
-
-.logo-text {
-    color: var(--white);
-}
-/* =========================
-   DG LIBRARY LOGO
-   ========================= */
-
-.logo {
-    display: flex;
-    align-items: center;
-    gap: var(--space-sm);
-    text-decoration: none;
-}
-
-.logo-mark {
-    width: 44px;
-    height: 44px;
-    background: var(--accent);
-    color: var(--primary);
-    border-radius: var(--radius-sm);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1rem;
-    font-weight: var(--weight-bold);
-    letter-spacing: -1px;
-    box-shadow: var(--shadow-sm);
-}
-
-.logo-name {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.1;
-}
-
-.logo-name strong {
-    color: var(--white);
-    font-size: 1.05rem;
-    font-weight: var(--weight-bold);
-}
-
-.logo-name small {
-    color: var(--text-light);
-    font-size: 0.7rem;
-    margin-top: 3px;
+    .problem-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
 }
