@@ -33,7 +33,8 @@ Technologies used
 Team Members & Roles
 - Brian Kabwe (2511076) - Scrum Master/Project Manager / Dev - DL-4 Foundation
 - Natasha Chisanga (2511015) -product owner/solution Architecture - DL-5 Foundation
-- simukoko chimwemwemwe(2510944) - QA & technical writer / dev - DL-14 Documentation
+- Charles Mupila (2510250) - DG-Library-Hub/dg-library-landing/Front end engineer
+- Simukoko Chimwemwemwe(2510944) - QA & technical writer / dev - DL-14 Documentation
 
 
 Scrum Workflow - How to Contribute
