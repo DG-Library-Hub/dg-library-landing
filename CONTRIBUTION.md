@@ -7,7 +7,7 @@
 | 3 |  |  | chisanganatasha789-cpu | DevOps / Deployment | DL-8 | DL-8 | PR #8 | BrianKabwe2511076 |
 | 4 |  |  | BrianKabwe2511076 | QA & Technical Writer | DL-9 | DL-9-readme-qa |  |  |
 | 5 |  |  | C2c2510944 | Bug Fixes & QA | DL-12, DL-14 | DL-12-bug-responsive, DL-14-quality-assurance | PR #1, PR #3, PR #7 | BrianKabwe2511076 |
-| 6 | Samuel |  | samuel-phiT-Sean- Bozari204 | SCM Manager | DL-10 | DL-10-github-integration, DL-10-scm-notes | PR #2 |  |
+| 6 | Samuel |  | samuel-phiri204 | SCM Manager | DL-10 | DL-10-github-integration, DL-10-scm-notes | https://github.com/DG-Library-Hub/dg-library-landing/pull/12 |  |
 | 7 |  |  |  | Scrum Master / PM | DL-1 |  |  |  |
 | 8 |  |  |  | UI/UX Design System | DL-2 |  |  |  |
 | 9 |  |  |  | Product Owner | DL-5 |  |  |  |
