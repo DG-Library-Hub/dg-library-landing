@@ -35,7 +35,7 @@ Team Members & Roles
 - Natasha Chisanga (2511015) -product owner/solution Architecture - DL-5 Foundation
 - Charles Mupila (2510250) - DG-Library-Hub/dg-library-landing/Front end engineer
 - Simukoko Chimwemwemwe(2510944) - QA & technical writer / dev - DL-14 Documentation
-
+  Samuel phiri(2410104) - Team & Collaboration - DL-7 FRONTEND ENGINEER
 
 Scrum Workflow - How to Contribute
 Branch Naming: `DL-4-foundation`
