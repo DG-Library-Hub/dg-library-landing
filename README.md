@@ -33,13 +33,14 @@ Technologies used
 Team Members & Roles
 - Brian Kabwe (2511076) - Scrum Master/Project Manager / Dev - DL-4 Foundation
 - Natasha Chisanga (2511015) -product owner/solution Architecture - DL-5 Foundation
-- Charles Mupila (2510250) - DG-Library-Hub/dg-library-landing/Front end engineer
+- Charles Mupila (2510250) - Front end engineer /DL-6- Nagaviation
 - Simukoko Chimwemwemwe(2510944) - QA & technical writer / dev - DL-14 Documentation
-
-
-Scrum Workflow - How to Contribute
-Branch Naming: `DL-4-foundation`
-
+- Kondwani Lungu (2510977) - UI/UX Design /DL- 5 Brandy Identity
+- Temwani Kainga (2510235) - Frontend - Future Spec / DL-9 Future Spec
+- Lubuto Chambatu (2510255) - Frontend - Problem Domain / DL-7 Problem Domain
+- Howard Bwalya (251092) - Frontend Team and Collaboration / DL-10
+- Samuel Phiri (2410104) - SCM Manager / DL-13 SCM
+- Dalitso Banda (2511021) - DevOps & Deployment /DL-12-Deployment
 
 ## Development & Contribution Workflow
 
@@ -64,7 +65,6 @@ dg-library-landing/
 │
 ├── index.html          # Main landing page
 ├── style.css           # Website styling and responsive design
-├── assets/             # Images and website resources
-│   └── logo.png
-│
+├── script.js           # Website Intreaction 
+├── CONTRIBUTION.md     #Members roles and requests
 └── README.md           # Project documentation
