@@ -520,3 +520,201 @@ footer {
         gap: 16px;
     }
 }
+
+/* =========================
+   DL-6 FEATURES & BENEFITS
+   ========================= */
+
+.features-section {
+    background: var(--background);
+    padding: var(--space-2xl) 7%;
+}
+
+.features-intro {
+    max-width: 850px;
+    margin: 0 auto var(--space-xl);
+    text-align: center;
+}
+
+.section-label {
+    display: inline-block;
+    color: var(--primary);
+    background: var(--accent-light);
+    padding: 5px 12px;
+    border-radius: var(--radius-lg);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-bold);
+    letter-spacing: 1px;
+    margin-bottom: var(--space-sm);
+}
+
+.features-intro h2,
+.risks-heading h2 {
+    font-size: var(--text-xl);
+    color: var(--primary);
+    margin-bottom: var(--space-sm);
+}
+
+.features-intro p,
+.risks-heading p {
+    color: var(--text-secondary);
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.features-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-lg);
+}
+
+.feature-card {
+    position: relative;
+    background: var(--surface);
+    padding: 32px 26px;
+    border-radius: var(--radius-md);
+    border-top: 4px solid var(--accent);
+    box-shadow: var(--shadow-md);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.10);
+}
+
+.feature-number {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    color: var(--text-light);
+    font-size: 1.8rem;
+    font-weight: var(--weight-bold);
+}
+
+.feature-icon {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--accent-light);
+    border-radius: var(--radius-sm);
+    font-size: 1.5rem;
+    margin-bottom: var(--space-md);
+}
+
+.feature-card h3 {
+    color: var(--primary);
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-sm);
+    padding-right: 30px;
+}
+
+.feature-card > p {
+    color: var(--text-secondary);
+    font-size: var(--text-sm);
+    margin-bottom: var(--space-md);
+}
+
+.feature-card h4 {
+    color: var(--primary-light);
+    font-size: var(--text-sm);
+    margin-bottom: var(--space-sm);
+}
+
+.feature-card ul {
+    padding-left: 20px;
+    margin-bottom: var(--space-md);
+    color: var(--text-secondary);
+    font-size: var(--text-sm);
+}
+
+.feature-card li {
+    margin-bottom: 5px;
+}
+
+.feature-benefit {
+    background: var(--accent-light);
+    border-radius: var(--radius-sm);
+    padding: 12px;
+    color: var(--primary);
+    font-size: var(--text-sm);
+}
+
+.feature-benefit strong {
+    color: var(--primary);
+}
+
+
+/* =========================
+   RISKS & MITIGATIONS
+   ========================= */
+
+.risks-section {
+    max-width: 1200px;
+    margin: var(--space-2xl) auto 0;
+}
+
+.risks-heading {
+    text-align: center;
+    margin-bottom: var(--space-lg);
+}
+
+.risks-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-md);
+}
+
+.risk-card {
+    background: var(--surface);
+    padding: var(--space-lg);
+    border-radius: var(--radius-md);
+    border-left: 4px solid var(--warning);
+    box-shadow: var(--shadow-sm);
+}
+
+.risk-card h3 {
+    color: var(--primary);
+    font-size: var(--text-md);
+    margin-bottom: var(--space-sm);
+}
+
+.risk-card p {
+    color: var(--text-secondary);
+    font-size: var(--text-sm);
+}
+
+
+/* =========================
+   DL-6 RESPONSIVE DESIGN
+   ========================= */
+
+@media (max-width: 1024px) {
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .risks-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .features-grid,
+    .risks-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .features-section {
+        padding: var(--space-xl) 5%;
+    }
+
+    .features-intro h2,
+    .risks-heading h2 {
+        font-size: 1.7rem;
+    }
+}
