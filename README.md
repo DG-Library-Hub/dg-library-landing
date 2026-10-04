@@ -6,9 +6,10 @@ DG Library & Venue Hub is a digital platform designed to make it easier for stud
 The project brings important academic resources, course information, learning pathways, timetables, and venue details together in one accessible platform. It is designed with a clean and responsive interface so that students can easily navigate the information on both computers and mobile devices.
 
 Live Demo
-- Vercel: [Add your vercel link here]
-- GitHub Pages: https://dg-library-hub.github.io/dg-library-landing/
 
+- Vercel: [https://dg-library-landing.vercel.app/](https://dg-library-landing.vercel.app/)
+
+- GitHub Pages: [https://dg-library-hub.github.io/dg-library-landing/](https://dg-library-hub.github.io/dg-library-landing/)
 Technologies used
 
 ### Frontend
