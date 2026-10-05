@@ -35,7 +35,7 @@ Team Members & Roles
 - Brian Kabwe (2511076) - Scrum Master/Project Manager / Dev - DL-4 Foundation
 - Natasha Chisanga (2511015) -product owner/solution Architecture - DL-5 Foundation
 - Charles Mupila (2510250) - Front end engineer /DL-6- Nagaviation
-- Simukoko Chimwemwemwe(2510944) - QA & technical writer / dev - DL-14 Documentation
+- Simukoko Chimwemwe(2510944) - QA & technical writer / dev - DL-14 Documentation
 - Kondwani Lungu (2510977) - UI/UX Design /DL- 5 Brandy Identity
 - Temwani Kainga (2510235) - Frontend - Future Spec / DL-9 Future Spec
 - Lubuto Chambatu (2510255) - Frontend - Problem Domain / DL-7 Problem Domain
